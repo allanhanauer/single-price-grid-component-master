@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  --clr-Cyan: hsl(179, 62%, 43%);
+  --clr-BrightYellow: hsl(71, 73%, 54%);
+  --clr-LightGray: hsl(204, 43%, 93%);
+  --clr-GrayishBlue: hsl(218, 22%, 67%);
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla";
+  line-height: 1.5rem;
+}
+body,
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--clr-LightGray);
+}
+#root {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
