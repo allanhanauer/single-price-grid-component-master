@@ -15,6 +15,7 @@ main {
   height: 475px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  box-shadow: 1px 10px 10px hsla(218, 22%, 67%,0.5);
 }
 .join {
   grid-column: 1/3;
